@@ -26,7 +26,7 @@ var searching = function(){
     console.log(search.value)
     var city = search.value
     if(city){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`)
     .then(function(response){
        return response.json();
     }).then(function(data){
