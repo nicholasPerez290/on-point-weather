@@ -62,7 +62,7 @@ var setText = function(city,data){
         temp.textContent = `Temp: ${data.main.temp}`
         wind.textContent = `Wind: ${data.wind.speed}`
         humid.textContent = `Humidity: ${data.main.humidity}`
-        uvIndex.textContent = `UV Index: `
+        uvIndex.textContent = `Feels Like: ${data.main.feels_like}`
 }
 openPage()
 searchBtn.addEventListener("click",function(){
