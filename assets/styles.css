@@ -1,0 +1,83 @@
+:root {
+  --blue: rgb(81, 81, 255);
+}
+h1 {
+  color: cornsilk;
+  display: block;
+  text-align: center;
+  background-color: var(--blue);
+  font-size: 4em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.search-box {
+  display: inline;
+  max-width: 20%;
+}
+.search-input {
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 20em;
+  line-height: 7em;
+  border-bottom: black;
+  border-style: solid;
+}
+#search-bar {
+  font-size: 30px;
+  min-height: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.searchBtn {
+  min-height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: cornsilk;
+  background-color: var(--blue);
+  margin-bottom: 1.5em;
+}
+.searchBtn:hover {
+  background-color: rgb(147, 147, 235);
+  transition: 0.5s;
+}
+.results {
+  display: inline-flex;
+}
+.newCity {
+  min-height: 30px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: cornsilk;
+  background-color: var(--blue);
+  margin-left: 20px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.newCity:hover {
+  background-color: rgb(147, 147, 235);
+  transition: 0.5s;
+}
+.weather-box {
+    border-style: solid;
+    border-width: 5px;
+    min-width: 70%;
+    margin: 70px;
+}
+h3 {
+    font-size: 40px;
+    padding: 20px;
+}
+li {
+    font-size: 25px;
+    margin: 20px;
+}
